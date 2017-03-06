@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="jacbmelo">
+    <meta name="description" content="Random quote">
+    <title>Random Quote</title>
+  </head>
+  <body>
+    <blockquote>
+      <p><span id="quote"></span> <em><span id="source"></span></em></p>
+    </blockquote>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    
+    <script src="random-quote.js"></script>
+  
+    <script>
+      RandomQuote.getQuote(function(q) {
+        if (typeof q === 'undefined') {
+          console.log('Quote undefined!');
+        } else {
+          console.log('"' + q.quote + '" ~' + q.source);
+          $('#quote').html('"' + q.quote + '"');
+          $('#source').html('~' + q.source);
+        }
+      });
+    </script>
+  </body>
+</html>
