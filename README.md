@@ -9,7 +9,7 @@ You can use it through https://jacbmelo.github.io/random-quote/ or you can use i
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" 
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" 
             crossorigin="anonymous"></script>
-    <script src="https://jacbmelo.github.io/random-image/random-quote.js"></script>
+    <script src="https://jacbmelo.github.io/random-quote/random-quote.js"></script>
     <script>
       RandomQuote.getQuote(function(q){
         if (typeof q === 'undefined') {
