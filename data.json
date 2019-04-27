@@ -1,5 +1,22 @@
 [
-  {"quote":"A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.", "source":"Douglas Adams, Mostly Harmless"},
-  {"quote": "Computers are useless. They can only give you answers.", "source":"Pablo Picasso"},
-  {"quote":"Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.", "source":"Rick Cook, The Wizardry Compiled"}
+  {
+    "quote":"A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.", 
+    "source":"Douglas Adams, Mostly Harmless"
+  },
+  {
+    "quote": "Computers are useless. They can only give you answers.", 
+    "source":"Pablo Picasso"
+  },
+  {
+    "quote":"Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.", 
+    "source":"Rick Cook, The Wizardry Compiled"
+  },
+  {
+    "quote":"The danger of computers becoming like humans is not as great as the danger of humans becoming like computers.", 
+    "source":"Konrad Zuse (2005) in: Hersfelder Zeitung. Nr. 212, 12. September 2005."
+  },
+  {
+    "quote":"One of the main causes of the fall of the Roman Empire was that, lacking zero, they had no way to indicate successful termination of their C programs.", 
+    "source":"Robert Firth; cited in: Jane Sales (2005) Symbian OS Internals: Real-time Kernel Programming. p. 45"
+  }
 ]
